@@ -1,0 +1,33 @@
+Algorithme Comptage 
+i,nbm,nbv,nbc:int;
+Esp =" ";
+Pt =".";
+i,nbm,nbv,nbc = 0;
+S ="Notre texte";
+Begin
+For(i=0;i<len(s);i++) {
+    if (len(s)=['a',ou'i',ou 'u', ou 'y', ou 'o'])
+    then 
+    nbv=nbv+1;
+    endif
+    return nbv;
+}
+
+
+
+For(i=0;i<len(s);i++) {
+     If (nbc==len(s))
+     then 
+     nbc=nbc+1;
+     endif
+     return nbc
+}
+
+
+For(i=0;i<len(s);i++) {
+    If (s[i]!=(Esp & Pt))
+    then
+    nbm=nbm+1;
+    endifreturn nbm
+}
+End    
